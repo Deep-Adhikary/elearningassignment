@@ -6,4 +6,6 @@ reports
 screenshots
 selenium_env
 allure-results
+allure-report
 elucidat
+__pycache__

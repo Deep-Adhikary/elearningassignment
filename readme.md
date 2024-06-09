@@ -1,11 +1,28 @@
-# Bugs
+
+# Following are the Bugs discovered
 
 ## Landing Page:
-1. Three page mentioed but actually there are only 2 cases.
+### 1. Three page mentioed but actually there are only 2 cases.
+#### Impact:
+##### **LOW**
+Since like it is typo, which might create some confusions
 ## Case Page:
-1. Score is in Date.Score is not updated when user completed the course(High)
-2. Both case are pointing to the case 1. Case 2 is not accessible from landing page(High)
-3. Progress Bar is not updated properly.
-	It updates progress bar of both cases simulteniously, though it is not completed.
-## Case 1:
-4. First verdict response is incorrect.(High)
+### 2. Score is in invalid data(Date):
+#### Impact:
+##### **HIGH** 
+User wont able to view their score once completed the learning
+### 3. Both case are pointing to the learning 1. Learning 2 is not accessible from landing page
+#### Impact:
+##### **HIGH** 
+User does not able to access the 2nd learning.
+### 3. Progress Bar is not updated properly.
+#### Impact:
+##### **LOW**
+The progress bar is updating for both the courses after completing one. Impact is low as user is not blocked.
+## Learining 1:
+### 4. In case one initial judgement page, the options are not providing current response. E.g. voting `Guilty` is showing response as `Not Guilty` and vice versa.
+#### Impact:
+##### **HIGH**
+This is providing incorrect information to the user.
+
+# Folder Structure
